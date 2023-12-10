@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h3>Create a Post</h3>
+    <form id="formData" action="/addPost" method="POST">
+        <label for="post_link">Post Link:</label><br>
+        <input type="text" id="post_link" name="imageURL"><br>
+        <label for="post_description">Post Description:</label><br>
+        <input type="text" id="post_description" name="description"><br>
+        <button type="submit">Create Post</button>
+    </form>
+    <h3>Posts</h3>
+    <div id="postContainer"></div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

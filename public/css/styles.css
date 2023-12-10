@@ -1,0 +1,78 @@
+/* CSS styles for the post, comments, and form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.commentForm input[type="text"],
+.commentForm button {
+  margin-right: 10px;
+}
+
+.commentForm button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.commentForm button:hover {
+  background-color: #218838;
+}
+
+.commentContainer p {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f8f9fa;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+}
